@@ -27,8 +27,7 @@ void PRT::PrintOutput(Lotto lotto) {
 void PRT::PrintCntAndRate(Lotto lotto) {
 	using namespace std;
 
-	for (int i = 1; i <= 45; i++)
-	{
+	for (int i = 1; i <= 45; i++){
 		int rate = lotto.Calculate(i);
 		cout << "[" << i << "] È½¼ö : " << lotto.GetNumberCnt(i) << "		È®·ü : " << rate << "%" << endl;
 	}

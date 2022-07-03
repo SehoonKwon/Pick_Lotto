@@ -44,8 +44,7 @@ void Lotto::setResult() {
 	SortForPrint();
 }
 
-bool cmp(const numInfo& u, const numInfo& v)
-{
+bool cmp(const numInfo& u, const numInfo& v) {
 	if (u.cnt > v.cnt)	return true;
 	else return false;
 }
