@@ -6,8 +6,7 @@ int main() {
 	PRT prt;
 	Lotto lotto;
 
-	int operCnt = prt.PrintInput();
-	lotto.DoPickLotto(operCnt);
+	lotto.DoPickLotto(prt.PrintInput());
 	prt.PrintCntAndRate(lotto);
 	lotto.setResult();
 	prt.PrintOutput(lotto);
